@@ -1,0 +1,29 @@
+/*Header*/
+
+#fond1{
+  position:relative;
+}
+
+#carte{
+
+}
+
+header div h5{
+  font-family: 'Pacifico', cursive;
+  font-size:50px;
+}
+
+.links{
+  display:inline-block;
+}
+
+.patchicon{
+  opacity:0.5;
+}
+
+
+/*grey background*/
+
+#gear{
+
+}
