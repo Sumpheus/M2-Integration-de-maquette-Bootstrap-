@@ -4,26 +4,38 @@
   position:relative;
 }
 
-#carte{
-
-}
-
 header div h5{
   font-family: 'Pacifico', cursive;
-  font-size:50px;
+  font-size:70px;
+}
+header div p{
+  margin-top:50px;
+  font-size:;
+  font-family: Helvetica Neue, Arial, sans-serif;
 }
 
 .links{
   display:inline-block;
+  margin-top:10px;
 }
 
 .patchicon{
   opacity:0.5;
+  position:absolute;
+}
+/*features*/
+
+#features img{
+
 }
 
+#features h5{
+  font-family: 'Raleway SemiBold', arial;
+  text-align:center;
+}
 
-/*grey background*/
-
-#gear{
-
+#features p{
+  color:#949494;
+  text-align:center;
+  font-family: Helvetica Neue, Arial, sans-serif;
 }
