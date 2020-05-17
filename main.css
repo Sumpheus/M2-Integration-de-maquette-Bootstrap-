@@ -14,15 +14,57 @@ header div p{
   font-family: Helvetica Neue, Arial, sans-serif;
 }
 
-.links{
+.links{      
   display:inline-block;
-  margin-top:10px;
+  margin-top:px;
+  padding:30px;
 }
 
-.patchicon{
-  opacity:0.5;
-
+#apple{
+    transition-duration:0.5s;
+    height:50px;
+    width:50px;
+    fill:white;
 }
+#apple:hover{
+    transition-duration:0.4s;
+    height:55px;
+    width:55px;
+    fill:#2ecc71;
+}
+
+#smart{
+    transition-duration:0.5s;
+    height:50px;
+    width:50px;
+    fill:white;
+}
+#smart:hover{
+    transition-duration:0.4s;
+    height:55px;
+    width:55px;
+    fill:#2ecc71;
+}
+
+#pc{
+    transition-duration:0.5s;
+    height:50px;
+    width:50px;
+    fill:white;
+}
+#pc:hover{
+    transition-duration:0.4s;
+    height:55px;
+    width:55px;
+    fill:#2ecc71;
+}
+    
+#notifyblock{
+    margin-left:230px;
+    margin-top:50px;
+}
+
+
 /*features*/
 
 #features img{
@@ -38,4 +80,52 @@ header div p{
   color:#949494;
   text-align:center;
   font-family: Helvetica Neue, Arial, sans-serif;
+}
+
+#gear{
+    height:55px;
+    width:55px;
+    fill:#2ecc71;
+    animation-name: circle;
+    animation-duration:infinite;
+}
+
+#star{
+    height:55px;
+    width:55px;
+    fill:#2ecc71;
+    animation-name: circle;
+    animation-duration:infinite;
+}
+
+#globe{
+    height:55px;
+    width:55px;
+    fill:#2ecc71;
+    animation-name: circle;
+    animation-duration: infinite;
+}
+
+@keyframes circle{
+    from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.rotation {
+  -webkit-animation: rotating 2s linear infinite;
+  -moz-animation: rotating 2s linear infinite;
+  -ms-animation: rotating 2s linear infinite;
+  -o-animation: rotating 2s linear infinite;
+  animation: rotating 2s linear infinite;
 }
