@@ -148,7 +148,7 @@ header div ul{
 }
 
 
-/* portraits aligné*/
+/*portraits aligné-animation*/
 
 #visages li{
     transition-duration:0.3s;
@@ -165,3 +165,29 @@ header div ul{
 
 /*icones liens alignés*/
 
+#sayhi svg{
+       height:50px;
+       width:50px;
+       fill:#d4d4d4;
+       transition-duration:0.5s;
+}
+
+#sayhi svg:hover{
+    height:60px;
+    width:60px;
+    fill:#2ecc71;
+}
+
+#thefooter{
+    display:inline-block;
+}
+
+#thefooter a{
+    color:#9d9d9d;
+    transition-duration:0.2s;
+}
+#thefooter a:hover{
+    text-decoration:none;
+    color:black;
+    transition-duration:0.2s;
+}
