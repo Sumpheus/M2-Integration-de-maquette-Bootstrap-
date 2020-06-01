@@ -191,3 +191,7 @@ header div ul{
     color:black;
     transition-duration:0.2s;
 }
+
+#thefooter li{
+    padding-left:65px;
+}
